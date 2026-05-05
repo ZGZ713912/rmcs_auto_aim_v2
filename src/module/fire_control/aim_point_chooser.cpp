@@ -33,7 +33,7 @@ struct AimPointChooser::Impl {
         bool in_window { false };
     };
 
-    const double min_switch_improvement_angle { util::deg2rad(8.0) };
+    const double min_switch_improvement_angle { util::deg2rad(4.0) };
     std::optional<int> last_chosen_armor_id {};
 
     auto initialize(AimPointChooser::Config const& external_config) noexcept -> void {

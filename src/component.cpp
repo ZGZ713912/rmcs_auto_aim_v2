@@ -4,7 +4,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #endif
 
-#include "adapter/sentry.hpp"
+#include "adapter/deformable-infantry.hpp"
 #include "kernel/feishu.hpp"
 #include "utility/rclcpp/node.hpp"
 #include "utility/shared/context.hpp"
