@@ -41,7 +41,7 @@ identifier:
   # model_location: "shenzhen-0708.onnx"
   # model_location: "tongji-yolov5.xml"
 
-  infer_device: "AUTO"
+  infer_device: "GPU"
   use_roi_segment: false
   roi_rows: 640
   roi_cols: 640
@@ -79,8 +79,8 @@ fire_control:
   initial_bullet_speed: 21.0 # m/s
   shoot_delay: 0.07 # s
   mpc_enable: false
-  yaw_offset: +1.6 # degree
-  pitch_offset: -1.5 # degree
+  yaw_offset: +1.1 # degree
+  pitch_offset: -0.5 # degree
 
   aim_point_chooser:
     coming_angle: 10.0 # degree
